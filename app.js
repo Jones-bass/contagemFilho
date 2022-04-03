@@ -7,7 +7,7 @@ const countContainer = document.querySelector('#countdown');
 
 
 const nextYear = new Date().getFullYear() 
-const newYearTime = new Date(`August ${nextYear} 00:00:00`)
+const newYearTime = new Date(`August 10 ${nextYear} 00:00:00`)
 
 const getTimeUnit = unit => unit < 10 ? '0' + unit : unit
 
