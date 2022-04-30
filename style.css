@@ -39,7 +39,7 @@ h1 {
   font-size: 40px;
   padding: 0px 10px 20px;
   border-radius: 10px;
-  box-shadow: 3px 3px 1px 0px #f7d1a0;
+  box-shadow: 3px 3px 1px 0px #fde3c2;
 }
 
 img {
@@ -69,14 +69,14 @@ ul {
   margin: 30px;
   padding: 10px;
   border-radius: 20px;
-  box-shadow: 3px 3px 1px 0px  #f7d1a0;
+  box-shadow: 3px 3px 1px 0px  #fde3c2;
 }
 
 .time small {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   border-radius: 10px;
-  box-shadow: 3px 3px 1px 0px #f7d1a0;
+  box-shadow: 3px 3px 1px 0px #fde3c2;
 }
 
 .grid-section {
@@ -136,6 +136,7 @@ ul {
     font-size: 25px;
     margin: 0px;
     border-radius: 10px;
+    box-shadow: 1.5px 1.5px 1px 0px  #fde3c2;
   }
 
   .time small {
@@ -144,6 +145,7 @@ ul {
     margin-top: 10px;
     padding: 10px;
     font-size: 15px;
+    box-shadow: 1.5px 1.5px 1px 0px  #fde3c2;
   }
 
   .familly-lista {
