@@ -1,12 +1,11 @@
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-image: url('https://img.elo7.com.br/product/original/23925E4/painel-cha-revelacao-g-frete-gratis-artigos-de-festa-infantil.jpg');
-  background-repeat: no-repeat;
+  background: url('./img/painel.jpg')  center center;
   background-size: cover;
-  background-position: center center;
   height: 100vh;
   color: #fff;
   font-family: 'Lato', sans-serif;
@@ -19,7 +18,8 @@ body {
   overflow: hidden;
 }
 
-/* Add a dark overlay */
+
+/* Overlay */
 body::after {
   content: '';
   position: absolute;
@@ -35,41 +35,101 @@ body * {
 }
 
 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
+  padding: 0px 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 0px 0px #fafaf9;
 }
 
-.countdown {
-  display: none;
-  transform: scale(2);
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
 }
 
 .time {
   display: flex;
+    grid-gap: 20px;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  margin: 15px;
+  margin-left: 50px;
 }
 
 .time h2 {
-  margin: 0 0 5px;
+  font-size: 60px;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 1px 1px #fafaf9;
 }
 
-@media (max-width: 500px) {
+.time small {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 1px 1px #fafaf9;
+}
+
+
+.grid-section {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  grid-gap: 20px;
+}
+
+/*essa eh a fonte*/
+.familly-lista {
+  height: 340px;
+  width: 440px;
+  overflow-y: scroll;
+  grid-column: 2;
+  margin-left: 10px;
+
+}
+.familly-lista::-webkit-scrollbar {
+  width: 10px;
+}
+
+.familly-lista::-webkit-scrollbar-thumb {
+  background: rgb(116, 113, 109);
+  border-left: 4px solid #faf6ed;
+  border-right: 4px solid #faf6ed;
+}
+
+.familly-lista::-webkit-scrollbar-track {
+  background: #faf6ed;
+}
+
+@media (max-width: 720px) {
   h1 {
-    font-size: 45px;
+    font-size: 20px;
   }
 
   .time {
     margin: 5px;
+    padding: 10px 0px 0px;
   }
-
+  
   .time h2 {
-    font-size: 12px;
-    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 1px 1px 1px #fafaf9;
   }
-
+  
   .time small {
-    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 1px 1px 1px #fafaf9;
   }
 }
