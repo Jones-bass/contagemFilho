@@ -27,7 +27,7 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 body * {
@@ -51,12 +51,17 @@ ul {
   list-style: none;
 }
 
+.countdown{
+  width: 50%;
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
 .time {
   display: flex;
-    grid-gap: 20px;
   flex-direction: column;
-  justify-content: center;
-  margin-left: 50px;
 }
 
 .time h2 {
@@ -74,7 +79,6 @@ ul {
   box-shadow: 4px 4px 1px 1px #fafaf9;
 }
 
-
 .grid-section {
   width: 100%;
   box-sizing: border-box;
@@ -83,15 +87,15 @@ ul {
   grid-gap: 20px;
 }
 
-/*essa eh a fonte*/
+/*-- Scroll --*/
 .familly-lista {
   height: 340px;
   width: 440px;
   overflow-y: scroll;
   grid-column: 2;
-  margin-left: 10px;
-
+  margin-right: 50px;
 }
+
 .familly-lista::-webkit-scrollbar {
   width: 10px;
 }
@@ -108,28 +112,46 @@ ul {
 
 @media (max-width: 720px) {
   h1 {
-    font-size: 20px;
+    font-size: 30px;
+  }
+
+  .grid-section {
+    padding: 1px;
+    grid-gap: 1px;
+  }
+
+  .countdown{
+    flex-direction: column;
+    padding: 1px;
+    grid-gap: 1px;
+    margin-left: 30px;
   }
 
   .time {
     margin: 5px;
+    flex-direction: column-reverse;
     padding: 10px 0px 0px;
   }
   
   .time h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     margin: 0px;
     border-radius: 10px;
-    box-shadow: 3px 1px 1px 1px #fafaf9;
+    box-shadow: 3px 3px 1px 0px rgb(255, 255, 255);
   }
-  
+
   .time small {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 100px;
+    text-transform: uppercase;
     margin-top: 10px;
-    padding: 5px;
+    padding: 10px;
     font-size: 15px;
-    border-radius: 5px;
-    box-shadow: 3px 1px 1px 1px #fafaf9;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px 0px rgb(255, 255, 255);
   }
+
+  .familly-lista {
+    height: 440px;
+    margin-top: 40px;
+  } 
 }
