@@ -82,15 +82,14 @@ ul {
 .grid-section {
   width: 100%;
   box-sizing: border-box;
-  padding: 10px;
   display: flex;
-  grid-gap: 20px;
+  gap: 100px;
 }
 
 /*-- Scroll --*/
 .familly-lista {
   height: 340px;
-  width: 440px;
+  width: 400px;
   overflow-y: scroll;
   grid-column: 2;
   margin-right: 50px;
@@ -148,7 +147,7 @@ ul {
   }
 
   .familly-lista {
-    height: 440px;
+    height: 480px;
     margin-top: 40px;
   } 
 }
