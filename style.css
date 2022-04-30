@@ -39,7 +39,7 @@ h1 {
   font-size: 40px;
   padding: 0px 10px 20px;
   border-radius: 10px;
-  box-shadow: 3px 3px 1px 0px #f5c78b;
+  box-shadow: 3px 3px 1px 0px #f7d1a0;
 }
 
 img {
@@ -69,14 +69,14 @@ ul {
   margin: 30px;
   padding: 10px;
   border-radius: 20px;
-  box-shadow: 3px 3px 1px 0px  #f5c78b;
+  box-shadow: 3px 3px 1px 0px  #f7d1a0;
 }
 
 .time small {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   border-radius: 10px;
-  box-shadow: 3px 3px 1px 0px #f5c78b;
+  box-shadow: 3px 3px 1px 0px #f7d1a0;
 }
 
 .grid-section {
@@ -101,7 +101,7 @@ ul {
 }
 
 .familly-lista::-webkit-scrollbar-thumb {
-  background: rgb(116, 113, 109);
+  background: #f89c21;
   border-left: 4px solid #faf6ed;
   border-right: 4px solid #faf6ed;
 }
