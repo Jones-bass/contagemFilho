@@ -6,6 +6,7 @@
 body {
   background: url('./img/photo1.jpg')  center center;
   background-size: cover;
+  padding: 10px;
   height: 100vh;
   color: #fff;
   font-family: 'Lato', sans-serif;
@@ -111,8 +112,13 @@ ul {
 }
 
 @media (max-width: 720px) {
+  .title h1 {
+    font-size: 30px;
+  }
+
   h1 {
     font-size: 30px;
+    margin-top: -5px;
   }
 
   .grid-section {
