@@ -1,64 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
-  <!DOCTYPE html>
-  <html lang="pt-br">
-  
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />    
-    <link rel="stylesheet" href="./style.css" />
-    
-    <title>Contagem Regressiva</title>
-  </head>
-  
-  <body>
-    <div class="title">
-      <h1>Contagem Regressiva para o meu 1º Aninho</h1>
-    </div>
-  
-  
-    <div class="grid-section familly js-scroll">
-      <div id="countdown" class="countdown">
-        <div class="time">
-          <h2 id="days">00</h2>
-          <small>Dias</small>
-        </div>
-        <div class="time">
-          <h2 id="hours">00</h2>
-          <small>Horas</small>
-        </div>
-        <div class="time">
-          <h2 id="minutes">00</h2>
-          <small>Minutos</small>
-        </div>
-        <div class="time">
-          <h2 id="seconds">00</h2>
-          <small>Segundos</small>
-        </div>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+
+  <title>Contagem Regressiva</title>
+</head>
+
+<body>  
+  <h1>Contagem Regressiva</h1>
+  <div class="grid-section">
+    <div id="countdown" class="countdown">
+      <div class="time">
+        <h2 id="days">00</h2>
+        <small>Dias</small>
       </div>
-  
-      <ul class="familly-lista" alt="foto-familly">
-          <img src="img/01.jpeg">
-          <img src="img/02.jpeg">
-          <img src="img/03.jpeg">
-          <img src="img/04.jpeg">
-          <img src="img/05.jpeg">
-          <img src="img/06.jpeg">
-          <img src="img/07.jpeg">
-          <img src="img/08.jpeg">
-          <img src="img/09.jpeg">
-          <img src="img/10.jpeg">
-        </li>
-      </ul>
-      <img src="./img/spinner.gif" alt="Carregando..." id="loading" class="loading">
+      <div class="time">
+        <h2 id="hours">00</h2>
+        <small>Horas</small>
+      </div>
+      <div class="time">
+        <h2 id="minutes">00</h2>
+        <small>Minutos</small>
+      </div>
+      <div class="time">
+        <h2 id="seconds">00</h2>
+        <small>Segundos</small>
+      </div>
     </div>
-    <h1>Maria Helena</h1>
 
-    <script src="script.js"></script>
+    
+    
+  </div>
+  
+
+  <div class="swiper carousel">
+    <h2>03 Meses</h2>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./img/meses/01.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/meses/02.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/meses/03.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/meses/04.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/meses/05.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/meses/06.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/meses/07.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/meses/08.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/meses/09.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/meses/10.jpeg" alt="" />
+      </div>
+    </div>
+    <button type="button" class="swiper-button-next"></button>
+    <button type="button" class="swiper-button-prev"></button>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <div class="swiper carousel">
+    <h2>01 Aninho</h2>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./img/01ano/01.png" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/01ano/02.png" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/01ano/03.png" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/01ano/04.png" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/01ano/05.png" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/01ano/06.png" alt="" />
+      </div>
+    </div>
+    <button type="button" class="swiper-button-next"></button>
+    <button type="button" class="swiper-button-prev"></button>
+    <div class="swiper-pagination"></div>
+  </div>
+  
+  
+  <img src="./img/spinner.gif" alt="Carregando..." id="loading" class="loading">
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

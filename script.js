@@ -1,3 +1,13 @@
+var swiper = new Swiper(".carousel", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
+
 const secundsTime = document.querySelector('#seconds');
 const minutesTime = document.querySelector('#minutes');
 const hoursTime = document.querySelector('#hours');
@@ -40,3 +50,4 @@ setInterval(updateCountDown, 1000);
 
 
 updateCountDown()
+
